@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@tensorflow/tfjs": "^1.6.0",
-    "@tensorflow/tfjs-node": "^1.6.0"
-  }
+    "@tensorflow/tfjs-node": "^1.6.0",
+    "@tensorflow/tfjs-vis": "^1.4.0"
+  },
+  "browserslist": ["last 1 Chrome version"]
 }
