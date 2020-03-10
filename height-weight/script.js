@@ -10,7 +10,7 @@ window.onload = async () => {
         {values: heights.map((x, i) => ({
                 x, y: weights[i]
             })) },
-        { xAxisDomain: [140, 280], yAxisDomain: [30, 70]}
+        { xAxisDomain: [140, 200], yAxisDomain: [30, 70]}
     );
 
     // 定义模型结构
