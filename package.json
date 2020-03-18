@@ -14,5 +14,7 @@
     "@tensorflow/tfjs-node": "^1.6.0",
     "@tensorflow/tfjs-vis": "^1.4.0"
   },
-  "browserslist": ["last 1 Chrome version"]
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
 }
