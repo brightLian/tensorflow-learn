@@ -41,7 +41,7 @@ window.onload = async () => {
             return examples.xs
                 .slice([i, 0], [1, 784])
                 // 一维转二维
-                .reshape([28, 28, 1]); // 单图片为28*28像素
+                .reshape([28, 28, 1]); // 单图片为28*28像素，1为黑白，彩色就是rgb值
         });
 
         const canvas = document.createElement('canvas');
@@ -49,7 +49,7 @@ window.onload = async () => {
         canvas.height = 28;
         canvas.style = 'margin: 4px';
 
-        // tensor 转 像素
+        // tensor 转像素
         await tf.browser.toPixels(imageTensor, canvas);
 
         // 新建visor实例，将canvas绘制到tensorflow右侧面板中绘图区
